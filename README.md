@@ -122,7 +122,7 @@ Modern e-ticaret çözümü sunan, bilgisayar ve donanım satışı yapan web si
 
 1. Projeyi klonlayın:
 ```bash
-git clone <proje-url>
+git clone https://github.com/ilhanyzr/pcshopfinal
 ```
 
 2. Bağımlılıkları yükleyin:
@@ -130,10 +130,7 @@ git clone <proje-url>
 npm install
 ```
 
-3. `.env.example` dosyasını `.env` olarak kopyalayın:
-```bash
-cp .env.example .env
-```
+3. `.env.example` dosyasını `.env` olarak kopyalayın
 
 4. `.env` dosyasını Supabase bilgilerinizle güncelleyin:
 ```env
