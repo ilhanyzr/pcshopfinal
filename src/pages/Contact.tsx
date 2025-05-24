@@ -238,9 +238,9 @@ const Contact = () => {
         <h2 className="text-2xl font-semibold mb-6">Mağaza Konumu</h2>
         <div className="bg-white rounded-xl shadow-lg overflow-hidden h-[400px]">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.232948447242!2d28.975499315415726!3d41.06681497929504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7a2638595b5%3A0x24d4a8b53c5b2956!2zS2HEn8SxdGhhbmUvxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1620000000000!5m2!1str!2str"
-            width="100%"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.232948447242!2d34.5812345!3d41.9432106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4087c2b4c5b0d3e1%3A0x123456789abcdef!2sSinop%20%C3%9Cniversitesi%20Ayanc%C4%B1k%20Meslek%20Y%C3%BCksekokulu!5e0!3m2!1str!2str!4v1620000000000!5m2!1str!2str"
             height="100%"
+            width="100%"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
