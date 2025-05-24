@@ -101,8 +101,8 @@ const Contact = () => {
                 <div>
                   <h3 className="font-medium text-gray-900">Adres</h3>
                   <address className="text-gray-600 not-italic">
-                    Merkez Mah. Teknoloji Cad. No:123<br />
-                    Kağıthane/İstanbul
+                    Yalı Mah Cemil Yıldız Cad, Şehit Fatih, Erer Sokak, 57400<br />
+                   Ayancık/sinop
                   </address>
                 </div>
               </div>
