@@ -26,10 +26,20 @@ const Contact = () => {
     setSuccess(false);
 
     try {
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      setSuccess(true);
-      setFormData({ name: '', email: '', subject: '', message: '' });
+      const response = await fetch('https://formspree.io/f/xldbygea', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        setSuccess(true);
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      } else {
+        setError('Mesaj gönderilemedi. Lütfen tekrar deneyin.');
+      }
     } catch (err) {
       setError('Bir hata oluştu. Lütfen daha sonra tekrar deneyin.');
     } finally {
