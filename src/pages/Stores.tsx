@@ -9,7 +9,8 @@ const stores = [
     phone: '+90 546 861 7237',
     hours: 'Pazartesi - Cumartesi: 10:00 - 20:00',
     image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200',
-    maps: 'https://maps.app.goo.gl/JYhFPBhGGnSHNxJt7'
+    maps: 'https://www.google.com/maps/dir/?api=1&origin=My+Location&destination=Ayancık+Meslek+Yüksekokulu,+Yeni+Mahalle,+57400+Ayancık/Sinop'
+
   }
 ];
 
